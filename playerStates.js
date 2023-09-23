@@ -78,6 +78,7 @@ export class Falling extends State {
         this.player = player;
     }
     enter(){
+        //random comment
         this.frameX = 0;
         this.player.maxFrame = 6;
         this.player.frameY = 2;
